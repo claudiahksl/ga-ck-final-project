@@ -7,7 +7,9 @@ Welcome to Claudiah's Portfolio
 Hello! Thanks for stopping by. I'm Claudiah, and this space is a showcase of my work, ideas, and passions. As a Learning Designer, Data Analyst, and expert in Consumer Operations, I thrive on creativity and the constant pursuit of knowledge.
 
 
-<img width="1154" alt="Screenshot 2024-04-21 at 12 31 07 PM" src="https://github.com/claudiahksl/ga-final-project/assets/167664634/bc4c0c45-3ac5-4cee-a702-515a9b707b01">
+![Screenshot 2024-04-21 at 10 52 06 PM](https://github.com/claudiahksl/ga-final-project/assets/167664634/26c29907-85d3-4c11-b790-09e19ab11e66)
+
+
 
 What You'll Find Here
 
@@ -24,10 +26,9 @@ Discover how I blend creativity with technology outside of work. Whether it's a 
 Get to know more about my journey, my motivations, and why I do what I do. Learn about the paths I’ve taken and the milestones that have shaped my career and personal life.
 
 
-<img width="1153" alt="Screenshot 2024-04-21 at 12 31 43 PM" src="https://github.com/claudiahksl/ga-final-project/assets/167664634/7d7b8153-d677-4efb-82d5-90927b1742a5">
+![Screenshot 2024-04-21 at 10 52 49 PM](https://github.com/claudiahksl/ga-final-project/assets/167664634/e5852efc-3ae8-40a4-aea5-28b1e26ac826)
 
-
-<img width="1156" alt="Screenshot 2024-04-21 at 12 32 15 PM" src="https://github.com/claudiahksl/ga-final-project/assets/167664634/d023363e-9373-4972-b136-f5715a699cc5">
+![Screenshot 2024-04-21 at 10 53 02 PM](https://github.com/claudiahksl/ga-final-project/assets/167664634/a6460254-f888-42ec-a0b2-e118157bf0cc)
 
 
 
