@@ -1,2 +1,2 @@
 # ga-final-project
-GA Final Project
+General Assembly Front End Web Final Project 
