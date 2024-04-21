@@ -1,0 +1,230 @@
+/*Body fonts*/
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu*/
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    color: black; 
+}
+
+.menu a {
+    color: black; 
+    margin: 10px 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: rgb(34,193,195);
+}
+
+/*Intro section*/
+#intro1 {
+    display:flex;
+    flex-direction: column;  
+    align-items: flex-end;
+    padding-right: 30px;
+    line-height: 10%;
+    background-image: url('Images/Cover.png');
+    background-size:150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.intro h1
+.intro h2
+{ font-weight: bold;
+}
+.btn {
+    padding: 20px 50px; 
+    border-radius: 23px;
+    text-align: center;
+    transition: 0.3s;
+    background-size: 200% auto;
+    color: white;
+    cursor: pointer;
+    display: inline-block; 
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-position: right center;
+}
+
+.story-button {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+/*Search bar*/
+.search-bar {
+    padding: 20px;
+    text-align: center;
+}
+
+/*Search bar - Dropdown menu*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF; /* Set to white */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.downdrop-content.show {
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: #EAEBFF; 
+}
+.nav-btn {
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.nav-btn:hover {
+    background-color: #EAEBFF;
+}
+
+/*Dropdown menu*/
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+/*Dropdown menu*/
+/* Show the dropdown content when hovering */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Blog*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 32px;
+    padding: 32px;
+    margin: 0 auto; 
+    
+}
+
+.grid-item {
+    background: #ffffff; 
+    padding: 32px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px; 
+}
+
+.grid-item img {
+    width: 100%; 
+    height: auto;
+    border-radius: 4px; 
+    margin-bottom: 16px; 
+}
+
+h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 16px;
+}
+
+.impact {
+    font-size: 15px;
+    margin-bottom: 24px;
+    color: #333; 
+}
+
+.work-button {
+    background-color: #C674C6; 
+    padding: 16px 32px; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s; 
+    color: white;
+}
+
+.work-button:hover {
+    background-color: #660066; 
+}
+
+/*Footer*/
+footer {
+    background: linear-gradient(90deg, rgba(255,232,208,1) 0%, rgba(255,243,229,1) 55%, rgba(255,255,255,1) 100%);
+    color: #000000;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-top: 1px solid #ffffff;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .social-media img {
+    width: 30px; 
+    height: auto;
+  }
+  
+  
+  
+  
+/*Media*/
+/* Responsive adjustments */
+@media (max-width: 1000px) {
+    .search-bar {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .grid-container {
+      grid-template-columns: 1fr; 
+    }
+  
+    .nav-btn {
+      width: 100%;
+      margin-bottom: 20px; 
+    }
+  
+    .dropdown-content {
+      width: 100%;
+    }
+}
