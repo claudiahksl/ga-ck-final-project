@@ -1,6 +1,8 @@
 # ga-final-project
 General Assembly Front End Web Final Project 
 
+Click to view: https://claudiahksl.github.io/ga-ck-final-project/
+
 <strong>Intro</strong>
 Welcome to Claudiah's Portfolio
 
